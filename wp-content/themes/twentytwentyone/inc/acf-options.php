@@ -1,0 +1,10 @@
+<?php
+
+/*-----------------------
+-- PAGINAS DE OPCIONES --
+-----------------------*/
+
+if( function_exists('acf_add_options_sub_page') ){
+	acf_add_options_page();
+	acf_set_options_page_title( 'Options');
+}
